@@ -1,0 +1,24 @@
+{
+    "version": 3,
+    "endpoints": [
+        {
+            "endpoint": "/foo",
+            "method": "GET",
+            "backend": [
+                {
+                    "url_pattern": "/__health",
+                    "host": [
+                        "http://localhost:8080"
+                    ]
+                }
+            ],
+            "concurrent_calls": "1",
+            "max_rate": 100000
+        }
+    ],
+    "oauth": {
+        "disable": true
+    },
+    "cache_ttl": "5m",
+    "timeout": "5s"
+}
