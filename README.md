@@ -11,7 +11,7 @@ This benchmark compares the performance, scalability, and security of popular AI
 ## Gateways Included
 
 The benchmark evaluates the following gateways:
-- TrustGate (AI-specific gateway)
+- [TrustGate](https://neuraltrust.ai/ai-gateway) (AI-specific gateway)
 - KrakenD
 - Tyk
 - Kong
