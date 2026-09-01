@@ -154,3 +154,34 @@ The benchmarks use the `hey` HTTP load generator to simulate traffic to each gat
 ## Results
 
 For detailed benchmark results and analysis, please refer to the accompanying article: "AI Gateway Benchmark: Comparing Performance."
+
+## Further reading
+ 
+- [The 10 Best AI Gateways for Enterprise AI Security in 2026](https://neuraltrust.ai/blog/best-ai-gateways)
+- [vs. Kong](https://neuraltrust.ai/blog/neuraltrust-vs-kong)
+- [vs. Apache APISIX](https://neuraltrust.ai/blog/neuraltrust-vs-apache-apisix)
+
+## FAQ
+ 
+**Why isn't LiteLLM/Portkey/Helicone in this benchmark?**
+This benchmark focuses on infrastructure-layer gateways with
+comparable data-plane architecture (Kong, Tyk, KrakenD, Apache
+APISIX). LLM-routing gateways solve a different problem — see our
+[comparison articles](https://neuraltrust.ai/blog/best-ai-gateways)
+for that category.
+ 
+**Isn't this biased since NeuralTrust builds TrustGate?**
+The methodology, environment and scripts are public specifically so
+anyone can re-run it and check.
+[Open an issue](https://github.com/NeuralTrust/AI-Gateway-Benchmark/issues)
+if your numbers differ.
+ 
+**How do I reproduce this on my own hardware?**
+See Running the benchmarks — one command, documented test
+environment above.
+
+
+## License
+ 
+[MIT](LICENSE) — NeuralTrust
+
